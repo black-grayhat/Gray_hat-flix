@@ -1,0 +1,19 @@
+backend/
+│
+├── controllers/
+│   ├── authController.js
+│   ├── movieController.js
+│   └── watchlistController.js
+│
+├── models/
+│   ├── User.js
+│   └── Movie.js
+│
+├── routes/
+│   ├── authRoutes.js
+│   ├── movieRoutes.js
+│   └── watchlistRoutes.js
+│
+├── server.js
+├── package.json
+├── .env
