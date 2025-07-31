@@ -1,0 +1,44 @@
+.splash-container {
+  background: black;
+  color: #0ff;
+  font-family: monospace;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.glitch-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px #0ff, 0 0 20px cyan;
+  animation: glitch 2s infinite;
+}
+
+@keyframes glitch {
+  0% { text-shadow: 0 0 10px #0ff; }
+  50% { text-shadow: 0 0 20px cyan, 0 0 40px #0ff; }
+  100% { text-shadow: 0 0 10px #0ff; }
+}
+
+.loading-bar {
+  margin-top: 30px;
+  width: 300px;
+  height: 10px;
+  border: 1px solid #0ff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.loading-progress {
+  height: 100%;
+  width: 0;
+  background: #0ff;
+  animation: loadProgress 4s forwards;
+}
+
+@keyframes loadProgress {
+  from { width: 0; }
+  to { width: 100%; }
+}
