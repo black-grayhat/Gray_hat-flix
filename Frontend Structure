@@ -1,0 +1,27 @@
+frontend/
+│
+├── public/
+│   ├── index.html
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── SplashScreen.js
+│   │
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Login.js
+│   │   ├── Register.js
+│   │   ├── Watchlist.js
+│   │   ├── Admin.js
+│   │
+│   ├── styles/
+│   │   ├── main.css
+│   │   ├── navbar.css
+│   │   ├── splash.css
+│   │   ├── movies.css
+│   │
+│   ├── App.js
+│   ├── index.js
+│
+├── package.json
